@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainround {
+  border-radius: 2.4rem /* 24px */;
+}
