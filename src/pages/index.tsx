@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="bg-[#007ced]  md:p-10 bg-[url('/bg.png')] bg-cover bg-fixed">
       <div className=" w-full absolute top-0 left-0 -z-10 h-screen"></div>
-      <div className="bg-[#222] md:rounded-[2.4rem] pt-10 z-50">
+      <div className="bg-[#222] md:rounded-[2.4rem] pt-10 z-50 max-w-[1440px] mx-auto">
         <div className="px-14">
           <Navbar />
           <Herosection />
